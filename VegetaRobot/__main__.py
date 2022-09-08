@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """ ┗►  *What's Up Yoo! * ◄┛
 
-~~ *I'm made with Saiyans blood* ~~
+~~ *I'm a anime management bot* ~~
 
 ~ *Wanna see my commands*[❗]({})
 *below click the help button!* ~
@@ -102,8 +102,8 @@ buttons = [
                        InlineKeyboardButton(text="UPDATES",  url=f"https://t.me/{UPDATES_CHANNEL}"),
                     ],
                    [
-                       InlineKeyboardButton(text="NETWORK", url=f"https://t.me/nandhabots"),
-                       InlineKeyboardButton(text="LOGS", url=f"https://t.me/vegetalogs"),
+                       InlineKeyboardButton(text="NETWORK", url=f"https://t.me/asta_est"),
+                       InlineKeyboardButton(text="LOGS", url=f"https://t.me/Mitsurilogs"),
                 ],[ InlineKeyboardButton(text="COMMANDS HELP", callback_data="help_back"
          ),
     ],
